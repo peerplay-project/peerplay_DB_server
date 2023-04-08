@@ -1,0 +1,21 @@
+{
+  "name": "peerplay_db_server",
+  "version": "1.0.0",
+  "description": "Database Server for Peerplay",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -p . && node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MH13",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.10.36",
+    "@types/pouchdb": "^6.4.0",
+    "typescript": "^4.0.0"
+  },
+  "dependencies": {
+    "comdb": "^6.0.0-beta",
+    "pouchdb": "^8.0.1"
+  }
+}
