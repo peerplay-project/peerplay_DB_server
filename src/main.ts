@@ -11,5 +11,7 @@ database_list.forEach((db_name) => {
   databases.push(database);
   console.log(`Started Database ${db_name}`);
 });
-
 console.log("Peerplay DB Server Started on Port 5984");
+while(true){
+  // Keep the process alive
+}
