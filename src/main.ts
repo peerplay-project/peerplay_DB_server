@@ -13,7 +13,7 @@ app.setPouchDB(PouchDB);
 // Création et configuration des bases de données
 database_list.forEach((db_name) => {
   console.log(`Starting Database ${db_name}`);
-  new PouchDB(db_name);
+  new PouchDB(`DB_${db_name}`);
   console.log(`Started Database ${db_name}`);
 });
 

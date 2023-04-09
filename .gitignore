@@ -1,7 +1,7 @@
-/accounts
+/DB_accounts
 /node_modules
 /dist
-/nodes
+/DB_nodes
 /_replicator
 /_users
 /pouch__all_dbs__
