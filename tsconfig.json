@@ -1,19 +1,17 @@
 {
-    "compilerOptions": {
-      "module": "commonjs",
-      "noImplicitAny": true,
-      "removeComments": true,
-      "preserveConstEnums": true,
-      "sourceMap": false,
-      "allowSyntheticDefaultImports": true,
-      "esModuleInterop": true,
-      "skipLibCheck": true,
-      "baseUrl": "src",
-      "outDir": "dist",
-      "lib": [
-        "es2015"
-      ],
-      "target": "ES6",
-      "strict": true
-    }
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": "src",
+    "outDir": "dist",
+    "lib": ["es2015"],
+    "target": "ES6",
+    "strict": true
   }
+}

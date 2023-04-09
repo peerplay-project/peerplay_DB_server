@@ -1,6 +1,9 @@
 /accounts
-/accounts-encrypted
 /node_modules
 /dist
 /nodes
-/nodes-encrypted
+/_replicator
+/_users
+/pouch__all_dbs__
+/config.json
+/log.txt
